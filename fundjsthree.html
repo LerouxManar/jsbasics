@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function add7 (number) {
+            
+            console.log("This is my number plus 7: " + (number+7))
+        }
+        add7(
+            parseInt(prompt("What is your favorite number?"))
+            );
+
+        function multiply(x, y){
+            console.log ("total = "+ (x*y));
+        }
+        multiply(
+            parseInt(prompt("What is the first number?")),
+            parseInt(prompt("What is the second number?"))
+        )
+
+
+        function capitalize(first){
+            console.log("Here is your word: " + first.charAt(0).toUpperCase() + first.slice(1))
+        }
+
+        capitalize(prompt("Input a word"))
+
+        function lastletter(word){
+            console.log("The last letter is " + word.slice(-1) )
+        }
+
+        lastletter(prompt("Input a word"))
+
+
+        
+          
+           
+        
+
+           
+    </script>
+    
+</body>
+</html>
